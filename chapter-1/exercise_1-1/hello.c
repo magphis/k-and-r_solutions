@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-void main(void)
+int main(void)
 {
 	/* This is a comment line */
 	printf("Hello World\n");
+	return 0;
 }
