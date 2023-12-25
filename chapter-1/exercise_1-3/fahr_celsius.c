@@ -22,7 +22,7 @@ int main(void)
 		*/
 
 		celsius = (5.0 / 9) * (fahr-32);
-		printf("%3.0f\t%5.1f\n", fahr, celsius);
+		printf("%3.0f\t%6.1f\n", fahr, celsius);
 		fahr = fahr + step;
 	}
 }
